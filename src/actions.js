@@ -1,4 +1,4 @@
-export const CALL_FALCOR_METHOD = '@@falcor/CALL_FALCOR_METHOD'
+export const CALL_FALCOR_METHOD = '@@falcor/FALCOR'
 
 function callFalorMethod(method) {
   return (...args) => ({
