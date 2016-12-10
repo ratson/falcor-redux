@@ -1,6 +1,6 @@
 {
   "name": "falcor-redux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redux binding for Falcor.",
   "main": "lib/index.js",
   "scripts": {
