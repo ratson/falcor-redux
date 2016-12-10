@@ -13,8 +13,8 @@ npm install falcor-redux --save
 ## Usage
 
 ```js
-import { falcorActions, falcorMiddleware } from 'falcor-redux'
-import { Model } from 'falcor'
+import {falcorActions, falcorMiddleware} from 'falcor-redux'
+import {Model} from 'falcor'
 import rootReducer from '<project-path>/reducers'
 
 const falcor = new Model({...})

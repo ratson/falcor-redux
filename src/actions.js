@@ -3,7 +3,7 @@ export const CALL_FALCOR_METHOD = '@@falcor/CALL_FALCOR_METHOD'
 function callFalorMethod(method) {
   return (...args) => ({
     type: CALL_FALCOR_METHOD,
-    payload: { method, args }
+    payload: {method, args},
   })
 }
 
